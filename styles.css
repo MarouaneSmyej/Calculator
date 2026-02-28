@@ -1,0 +1,62 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(68, 57, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#calculator{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    border-radius: 3px;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(247, 203, 9);
+    
+}
+#display {
+    background-color: buttonface;
+    color: black;
+    border: 1px black solid;
+    width: auto;
+    height: 20%;
+    margin-top: 10px;
+    margin-right: 13px;
+    margin-left: 13px;
+    text-align: right;
+}
+#buttons{
+    margin: 1%;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1%;
+    
+}
+.button{
+    width: 23%;
+    height: 19%;
+    font-size: larger;
+}
+
+.button:hover{
+    background-color: white;
+}
+
+#half-right{
+    width: 47%;
+    height: 19%;
+    
+}
+
+#half-left{
+   
+    width: 47%;
+    height: 19%;
+}
