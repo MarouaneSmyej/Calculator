@@ -21,7 +21,8 @@ body {
 }
 #display {
     background-color: buttonface;
-    color: black;
+    font-size: 55px;
+    color: rgb(0, 0, 0);
     border: 1px black solid;
     width: auto;
     height: 20%;
@@ -29,6 +30,9 @@ body {
     margin-right: 13px;
     margin-left: 13px;
     text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 #buttons{
     margin: 1%;
@@ -39,13 +43,13 @@ body {
     gap: 1%;
     
 }
-.button{
+button{
     width: 23%;
     height: 19%;
     font-size: larger;
 }
 
-.button:hover{
+button:hover{
     background-color: white;
 }
 
